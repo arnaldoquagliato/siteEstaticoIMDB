@@ -187,7 +187,6 @@ body {
 }
 
 .catalogs-films {
-	align-items: flex-start;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -263,6 +262,9 @@ a:hover {
     text-decoration: underline;
 }
 
+.property{
+	margin: 0px 10px;
+}
 .name-filmes {
 	font-size: 15px;
 	line-height: 1em;
@@ -302,8 +304,7 @@ a:hover {
 }
 
 .footer {
-	border-top: 1px solid rgba(0, 0, 0, 0.08);
-	color: #bababa;
+	border-top: 1px transparent #bababa;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
