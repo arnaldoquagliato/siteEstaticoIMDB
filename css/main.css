@@ -301,3 +301,41 @@ a:hover {
 	color: rgb(238, 42, 42);
 }
 
+.footer {
+	border-top: 1px solid rgba(0, 0, 0, 0.08);
+	color: #bababa;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 150px;
+}
+
+.itens {
+	list-style: none;
+}
+
+.itens-icons a{
+	text-decoration: none;
+	padding: 0px 20px;
+	color: rgb(172, 172, 172);
+	transition: all 0.2s ease-in-out;
+}
+
+.itens-icons i{
+	font-size: 25px;
+}
+
+
+.icon-instagram:hover{
+	color: #e95950;
+}
+
+
+.icon-twitter:hover{
+	color: #55acee;
+}
+
+
+.icon-facebook:hover{
+	color: #3b5998;
+}
