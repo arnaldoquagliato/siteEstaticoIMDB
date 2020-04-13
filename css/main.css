@@ -264,6 +264,8 @@ a:hover {
 
 .property{
 	margin: 0px 10px;
+	flex-direction: column;
+
 }
 .name-filmes {
 	font-size: 15px;
@@ -272,13 +274,22 @@ a:hover {
 	text-transform: uppercase;
 }
 
-.type-filme a{
-	color: #e4bb23;
-	text-decoration: none;
-	cursor: pointer;
+.type-filme {
+	display: flex;
+	text-align: center;
+	list-style: none;
 }
 
-.type-filme:hover{
+.type-filme-class {
+	text-decoration: none;
+	color: #e4bb23;
+	cursor: pointer;
+	font-size: 15px;
+	padding-right: 3px;
+}
+
+
+.type-filme-class:hover{
 	text-decoration: underline #e4bb23;
 }
 
